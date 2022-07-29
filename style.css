@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 24px;
+    font-weight: 600;
 }
 ul{
     display: flex;
@@ -22,6 +24,8 @@ li,
 a{
     text-decoration: none;
     list-style-type: none;
+    font-size: 18px;
+    font-weight: 300;
 }
 .texts{
     display: flex;
@@ -41,6 +45,9 @@ a{
     display: flex;
 
 }
+button{
+    background-color: #3882f6;
+}
 .planet-img{
     width: 200px;
     height: auto;
@@ -50,6 +57,7 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 70px;
 }
 .planet-cont{
     display: flex;
