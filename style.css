@@ -1,7 +1,7 @@
 .container1{
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
+    margin: 0 70px;
 }
 .solar-img{
     width: 450px;
@@ -71,4 +71,23 @@ button{
 }
 .planet{
     width: 15%;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding: 120px;
+    background-color: red;
+    
+}
+.quotes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.quote{
+    font-size: 36px;
+}
+.quoted{
+    font-size: 24px;
 }
