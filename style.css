@@ -1,12 +1,16 @@
+body{
+    margin: 0;
+}
 .container1{
     display: flex;
     flex-direction: column;
-    margin: 0 70px;
+    padding: 0 100px;
 }
 .solar-img{
-    width: 450px;
+    width: 400px;
     height: auto;
     flex-shrink: 0;
+    padding-bottom: 50px;
 
 }
 .header{
@@ -30,7 +34,7 @@ a{
 .texts{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 .text1{
     width: 50%;
@@ -53,7 +57,7 @@ button{
     height: auto;
 }
 .container2{
-    margin: 50px 0;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -75,19 +79,35 @@ button{
 .container3{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 120px;
-    background-color: red;
-    
 }
 .quotes{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    width: fit-content;
+
 }
 .quote{
     font-size: 36px;
+    font-style: italic;
 }
 .quoted{
     font-size: 24px;
+    align-self: flex-end;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 60px;
+}
+.bottom-center{
+    background-color: #3882f6;
+    display: flex;
+    padding: 40px 140px;
+    gap: 100px;
+    align-items: center;
 }
