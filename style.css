@@ -11,8 +11,8 @@ body{
     width: 500px;
     height: auto;
     flex-shrink: 0;
-    padding-bottom: 50px;
-
+    margin-bottom: 50px;
+    border-radius: 12px;
 }
 .header{
     display: flex;
@@ -59,10 +59,19 @@ button{
     background-color: #3882f6;
     padding: 5px 20px;
     color: #e5e7eb;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #f9faf8;
+    color:#3882f6
+    
 }
 .planet-img{
     width: 200px;
     height: auto;
+    border-radius: 12px;
 }
 .container2{
     display: flex;
@@ -115,6 +124,7 @@ button{
     width: 100%;
     justify-content: space-around;
     padding: 60px;
+
 }
 .bottom-center{
     background-color: #3882f6;
@@ -122,6 +132,7 @@ button{
     padding: 40px 140px;
     gap: 100px;
     align-items: center;
+    border-radius: 8px;
 }
 .bottom-text{
     font-weight: 900;
@@ -132,6 +143,10 @@ button{
 }
 .btn-bottom{
     border-color: #f9faf8;
+}
+.btn-bottom:hover{
+    background-color: #f9faf8;
+    color:#3882f6
 }
 .footer{
     text-align: center;
