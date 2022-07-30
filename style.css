@@ -111,3 +111,7 @@ button{
     gap: 100px;
     align-items: center;
 }
+.footer{
+    text-align: center;
+    padding: 20px 0;
+}
