@@ -45,11 +45,13 @@ a{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .text2{
     width: 40%;
     font-size: 18px;
     color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header-center{
     display: flex;
@@ -93,6 +95,7 @@ button{
 }
 .planet-text{
     color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .planet{
     width: 15%;
@@ -119,6 +122,7 @@ button{
 .quoted{
     font-size: 24px;
     align-self: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container4{
     display: flex;
@@ -138,9 +142,11 @@ button{
 .bottom-text{
     font-weight: 900;
     color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .bottom-text2{
     color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .btn-bottom{
     border-color: #f9faf8;
