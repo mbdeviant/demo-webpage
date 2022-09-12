@@ -38,6 +38,14 @@ a{
     font-size: 18px;
     font-weight: 300;
     color: #e5e7eb;
+    transition-duration: 0.2s;
+}
+a:hover{
+    text-decoration:underline;
+    transform:scale(1.1);
+}
+li:hover{
+    transform:scale(1.1);
 }
 .texts{
     
@@ -74,10 +82,14 @@ button{
     border-radius: 8px;
     transition-duration: 0.2s;
     cursor: pointer;
+    border: #3882f6;
 }
 .button:hover{
     background-color: #f9faf8;
-    color:#3882f6
+    color:#3882f6;
+    transform:scale(1.07);
+    border: #3882f6;
+    
     
 }
 .planet-img{
@@ -85,6 +97,10 @@ button{
     height: auto;
     border-radius: 12px;
     box-shadow: -15px 0px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+}
+.planet-img:hover{
+    transform:scale(1.1);
 }
 .container2{
     display: flex;
