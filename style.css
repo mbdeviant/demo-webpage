@@ -26,6 +26,10 @@ body{
     font-weight: 600;
     color: #f9faf8;
     margin: 0;
+ 
+}
+#logo:hover{
+    text-decoration:solid;
 }
 ul{
     display: flex;
@@ -39,12 +43,11 @@ a{
     font-weight: 300;
     color: #e5e7eb;
     transition-duration: 0.2s;
+    
 }
-a:hover{
-    text-decoration:underline;
-    transform:scale(1.1);
-}
+
 li:hover{
+    text-decoration:underline;
     transform:scale(1.1);
 }
 .texts{
@@ -177,7 +180,8 @@ button{
 }
 .btn-bottom:hover{
     background-color: #f9faf8;
-    color:#3882f6
+    color:#3882f6;
+    transform:scale(1.1);
 }
 .footer{
     text-align: center;
