@@ -67,8 +67,7 @@ li:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 .text2{
-    
-    width: 460px;
+    width: clamp(45ch,50%,75ch);
     font-size: 18px;
     color: #e5e7eb;
     font-family: Arial, Helvetica, sans-serif;
